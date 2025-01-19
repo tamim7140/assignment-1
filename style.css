@@ -138,19 +138,86 @@ body{
 .news-description{
     padding-bottom: 32px;
 }
-.satellite-1{
+
+.satellite {
     display: flex;
-    padding: 48px;
-    background-color: white;
-    margin-bottom:24px ;
-    border-radius: 24px;
     align-items: center;
-}
-.satellite-2{
-    display: flex;
-    padding: 48px;
+    gap: 32px;
     background-color: white;
-}
-.satellite-image{
+    padding: 48px;
+    border-radius: 20px;
+    margin-bottom: 24px;
+  }
+  .satellite-img {
+    width: 400px;
+  }
+
+
+  /*donate*/
+
+  .donate{
+    padding: 0px 160px 80px;
+  }
+  .donate-description{
+    text-align: center;
+  }
+  .donate-amounts{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 32px;
+  }
+  .amount-1{
+    background-color: white;
+    padding: 40px;
+    border-radius: 16px;
+  }
+  .amount-2{
+    background-color: #C6E4D6;
+    padding: 40px;
+    border-radius: 16px;
+  }
+  .input{
+    text-align: center;
+  }
+  .input-number{
+    padding: 20px 422.5px;
+    border: none;
+  }
+  .submit-btn{
+    padding-top: 32px;
+  }
+
+  /*subscribe*/
+
+
+  .subscribe{
+    padding: 0px 160px 80px;
+    text-align: center;
+  }
+  .subscribe-box{
+    background-color: #C6E4D6;
     border-radius: 24px;
+    padding: 80px 265px;
+  }
+  .submit{
+    text-align: center;
+  }
+.input-email{
+    
 }
+
+.input-email{
+    padding: 18px 403px 18px 40px;
+    background-color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 8px 0 0 8px;
+  }
+  .btn-5{
+    border-radius: 0 8px 8px 0;
+    padding: 17px 34px;
+    background-color: #006A50;
+    border: none;
+    color: white;
+    font-size: 18px;
+  }

@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*banner*/
+
+.banner{
+    margin: 120px 160px 80px 160px;
+}
+.banner-box{
+    display: flex;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    padding: 80px 59.99px;
+    align-items: center;
+
+}
+.banner-content{
+    padding: 37px 0px;
+    padding-right: 64px;
+}
+.subtitle{
+    padding-bottom: 16px;
+    color: rgba(14, 14, 14, 0.500);
+}
+.title{
+    padding-bottom: 24px;
+}
+.btn-1{
+    background-color: #006A50;
+    color: white;
+    font-size: 18px;
+    padding: 17px 34px;
+    border-radius: 8px;
+    border: none;
+}
+.banner-image{
+    width: 400px;
+}
+
+
+/*Vision*/
+
+.future-vision{
+    padding: 0px 160px 80px;
+}
+.vision-title{
+    padding-bottom: 24px;
+}
+.vision-subtitle{
+    padding-bottom: 32px;
+}
+.visions{
+    display: flex;
+    gap: 24px;
+}
+.vision-1{
+    background-color: rgba(84, 143, 245, 0.200);
+    border-radius: 16px;
+    padding: 32px;
+}
+.vision-2{
+    background-color: #C6E4D6;
+    border-radius: 16px;
+    padding: 32px;
+}
+.vision-3{
+    background-color: #F7EBCF;
+    border-radius: 16px;
+    padding: 32px;
+}
+.vision3-title{
+    padding: 24px 0px 12px;
+}
+.vision3-description{
+    padding-bottom: 24px;
+}
+
+.btn-2{
+    background-color: #5490F5;
+    font-size: 16px;
+    color: white;
+    padding: 11px 20px;
+    border: none;
+    border-radius: 8px;
+}
+.btn-3{
+    background-color: #09A15C;
+    font-size: 16px;
+    color: white;
+    padding: 11px 20px;
+    border: none;
+    border-radius: 8px;
+}
+.btn-4{
+    background-color: #FFC239;
+    font-size: 16px;
+    color: white;
+    padding: 11px 20px;
+    border: none;
+    border-radius: 8px;
+}

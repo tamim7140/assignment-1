@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
 }
-
+body{
+    background-color: #F1F1F3;
+}
 /*banner*/
 
 .banner{
@@ -100,4 +102,55 @@
     padding: 11px 20px;
     border: none;
     border-radius: 8px;
+}
+
+
+/*quote*/
+
+.quote{
+    padding: 32px 160px 80px;
+}
+.quotesion{
+    background-color: #FFFFFF;
+    background-image: url(images/quote-bg.png);
+    background-repeat: no-repeat;
+    padding: 48px 24px;
+    border-radius: 16px;
+    background-position: 25px 24px;
+}
+.what{
+    padding-bottom: 12px;
+}
+.who{
+    padding-bottom: 4px;
+}
+    
+
+
+/*news*/
+
+.news{
+    padding: 0px 160px 80px;
+}
+.news-title{
+    padding-bottom: 24px;
+}
+.news-description{
+    padding-bottom: 32px;
+}
+.satellite-1{
+    display: flex;
+    padding: 48px;
+    background-color: white;
+    margin-bottom:24px ;
+    border-radius: 24px;
+    align-items: center;
+}
+.satellite-2{
+    display: flex;
+    padding: 48px;
+    background-color: white;
+}
+.satellite-image{
+    border-radius: 24px;
 }
